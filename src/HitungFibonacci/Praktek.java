@@ -1,4 +1,5 @@
 package HitungFibonacci;
+import java.util.*;
 public class Praktek 
 {
 		private static void tampilJudul(String identitas)
@@ -14,5 +15,17 @@ public class Praktek
 			String identitas = "Arya Putra Adyartama / X RPL 3 / 07";
 			
 			tampilJudul(identitas);
+			
+			int n = tampilInput();
+		}
+		
+		private static int tampilInput()
+		{
+			Scanner scanner = new Scanner(System.in);
+			
+			System.out.println("Bilangan ke-: ");
+			int n = scanner.nextInt();
+			
+			return n;
 		}
 }
