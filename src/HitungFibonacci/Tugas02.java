@@ -32,5 +32,15 @@ public class Tugas02
         
         System.out.println("\nTotal Bayaran : Rp." + hasil);
 	}
+	
+	public static void main(String[] args)
+	{
+        int[] ap = new int[]{7, 5, 4, 3, 2};
+        int[] pa = new int[]{10000, 7000, 5000, 3000, 2000};
+        
+        int berat = Awok();
+        
+        Proces(berat, ap, pa);
+	}
 
 }
