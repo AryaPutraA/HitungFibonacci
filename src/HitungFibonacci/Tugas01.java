@@ -15,5 +15,18 @@ public class Tugas01
 			return b;
 		}
 		
-		
+		public static void A(int b, int [] d)
+		{
+			for(int i = 0; i < d.length; i++)
+			{
+				int f = 0;
+				while(b >= d[i])
+				{
+					b = b - d[i];
+					f++;
+				}
+					System.out.println(d[i] + " Sebanyak " + f);
+			}
+		}
+
 }
